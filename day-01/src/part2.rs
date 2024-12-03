@@ -30,6 +30,6 @@ mod tests {
 3   9
 3   3";
 
-        assert_eq!(process(input), Ok("31".to_string()))
+        assert_eq!(process(input), Ok("31".to_string()));
     }
 }
