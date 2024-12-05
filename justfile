@@ -1,2 +1,2 @@
-run package binary:
-    cargo run --package {{package}} --bin {{binary}}
+run day part:
+    cargo run --package day-{{day}} --bin part{{part}}
